@@ -1,0 +1,167 @@
+*
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .contactus
+        {
+            background: skyblue;
+            padding: 100px;
+            width: 70%;
+            margin: auto;
+        }
+
+        .number, .email, .address, .address-details, .contact-details, .form, .contactus, .map-dropdown, .formcol:last-child
+        {
+            display: flex;
+        }
+
+        .address, .contact-details, .contactus, .formcol:last-child
+        {
+            flex-direction: column;
+            
+        }
+        .contactus
+        {
+            gap: 20px;
+        }
+
+        .address
+        {
+            gap: 20px;
+        }
+
+        .title
+        {
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+        }
+
+        .address, .form
+        {
+            padding: 20px;
+            background: rgb(245,245,245);
+        }
+
+        .address-text, .contact-details
+        {
+            width:30%;
+        }
+
+        .address-text
+        {
+            line-height: 25px;
+        }
+
+        .contact-details
+        {
+            gap: 10px;
+        }
+
+        .address-title p
+        {
+            font-size: 20px;
+        }
+
+        .address-details
+        {
+            gap: 50px;
+        }
+
+        .email
+        {
+            color: darkcyan;
+        }
+        
+        .email, .number
+        {
+            gap: 10px;
+        }
+
+        .number, .fa-location-dot
+        {
+            color: red;
+        }
+
+        .fa-location-dot
+        {
+            font-size: 30px;
+        }
+
+        .map
+        {
+            background: url(https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg?mbid=social_retweet);
+           
+        }
+          
+        .formcol
+        {
+            flex-basis: 50%;
+        }
+
+        .form-content
+        {
+            padding-right: 30px;
+        }
+
+        input, textarea
+        {
+            padding: 10px;
+            border: 0.5px solid rgb(0, 0, 0, 0.2);
+            border-radius: 5px;
+            margin-bottom: 20px;
+            width: 49%;
+        }
+        
+
+        .message
+        {
+            width: 100%;
+        }
+
+        input:last-child
+        {
+            width: 20%;
+            background: red;
+            color: white;
+        }
+
+        .map-dropdown
+        {   
+            justify-content: space-between;
+            padding: 5px;
+            background: white;
+            width: 70px;
+            align-items: center;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .formcol:last-child
+        {
+            height: 400px;
+        }
+
+        .map
+        {
+            padding: 20px;
+            flex-basis: 90%;
+        }
+        .social
+        {
+            flex-basis: 10%;
+        }
+
+        .social
+        {
+            font-size: 30px;
+        }
+        
+        .formcol:last-child
+        {
+            gap: 10px;
+        }
+        
